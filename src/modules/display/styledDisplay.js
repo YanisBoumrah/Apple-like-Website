@@ -112,6 +112,6 @@ export const MovingText = styled.h1`
     font-size: var(--fontlg);
   }
   @media screen and (max-width: 30em) {
-    font-size: var(--fontmd);
+    font-size: var(--fontlg);
   }
 `

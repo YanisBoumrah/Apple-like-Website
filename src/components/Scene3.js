@@ -19,6 +19,10 @@ export function Model3(props) {
     materials.Antenna.color.set("#9BB5CE");
     materials["Camera_Frame.001"].color.set("#9BB5CE");
 
+    if (window.matchMedia("(max-width: 48em)").matches) {
+      camera.fov = 18;
+      camera.updateProjectionMatrix();
+    }
 
   }, [])
 
