@@ -6,13 +6,19 @@ import { useThree } from '@react-three/fiber'
 export function Model3(props) {
   const group = useRef()
   const { nodes, materials } = useGLTF('/scene.gltf')
-  
+  console.log(materials)
   let camera =useThree(state => state.camera)
 
   useLayoutEffect (() => {
     camera.position.set(0,2,6)
     materials.Body.color.set("#9BB5CE");
-  
+    materials.Frame.color.set("#9BB5CE");
+    materials.Frame2.color.set("#9BB5CE");
+    materials.Logo.color.set("#9BB5CE");
+    materials.Camera_Frame.color.set("#9BB5CE");
+    materials.Antenna.color.set("#9BB5CE");
+    materials["Camera_Frame.001"].color.set("#9BB5CE");
+
 
   }, [])
 

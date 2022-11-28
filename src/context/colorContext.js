@@ -18,6 +18,12 @@ export const ColorContextProvider = ({children}) => {
     let changeColorContext = (colorObj) => {
 
         materials.Body.color.set(colorObj.color);
+        materials.Frame.color.set(colorObj.color);
+        materials.Frame2.color.set(colorObj.color);
+        materials.Logo.color.set(colorObj.color);
+        materials.Camera_Frame.color.set(colorObj.color);
+        materials.Antenna.color.set(colorObj.color);
+        materials["Camera_Frame.001"].color.set(colorObj.color);
         serCurrentColor(colorObj)
       }
 
