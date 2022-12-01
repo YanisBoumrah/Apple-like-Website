@@ -31,11 +31,11 @@ const Design = () => {
       let t2 = gsap.timeline({
         scrollTrigger: {
           trigger: ".text",
-          markers: true,
+          // markers: true,
           scrub: 1,
           start: "top center",
           end: "bottom center",
-          markers: true,
+          // s: true,
         }
       }).to(".text p", {
         backgroundPositionX: "0%",
@@ -60,11 +60,11 @@ const Design = () => {
       <span>Flowless Design with strong durability </span>
       </Text2>
       </ModuleContainer>
-      <Div>
+      {/* <Div>
       <div class="text">
       <p>Macaroon croissant pastry shortbread cupcake chupa chups pudding. Gummies pie candy canes sweet roll cake chupa chups cake fruitcake. Cake bonbon chupa chups carrot cake cake gingerbread cookie cake. </p>
       </div>
-      </Div>
+      </Div> */}
       </>
 
   )

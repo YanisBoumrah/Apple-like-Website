@@ -11,13 +11,13 @@ export function Model3(props) {
 
   useLayoutEffect (() => {
     camera.position.set(0,2,6)
-    materials.Body.color.set("#9BB5CE");
-    materials.Frame.color.set("#9BB5CE");
-    materials.Frame2.color.set("#9BB5CE");
-    materials.Logo.color.set("#9BB5CE");
-    materials.Camera_Frame.color.set("#9BB5CE");
-    materials.Antenna.color.set("#9BB5CE");
-    materials["Camera_Frame.001"].color.set("#9BB5CE");
+    materials.Body.color.set("#505F4E");
+    materials.Frame.color.set("#505F4E");
+    materials.Frame2.color.set("#505F4E");
+    materials.Logo.color.set("#505F4E");
+    materials.Camera_Frame.color.set("#505F4E");
+    materials.Antenna.color.set("#505F4E");
+    materials["Camera_Frame.001"].color.set("#505F4E");
 
     if (window.matchMedia("(max-width: 48em)").matches) {
       camera.fov = 18;

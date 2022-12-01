@@ -21,7 +21,7 @@ export function Model(props) {
 
   useLayoutEffect (() => {
     camera.position.set(0,2,6)
-    materials.Body.color.set("#9BB5CE");
+    materials.Body.color.set("#505F4E");
 
     let fov = camera.fov
     fov = (1400*18) /window.innerWidth;

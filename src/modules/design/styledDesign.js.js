@@ -8,7 +8,7 @@ export const ModuleContainer = styled.section`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-color: var(--white);
+  background-color: var(--dark);
   overflow: hidden;
 `;
 export const Text1 = styled.p`
@@ -19,7 +19,7 @@ export const Text1 = styled.p`
   width: 100%;
   height: 50vh;
   z-index: 1;
-  color: var(--black);
+  color: var(--white);
   span{
     font-size: var(--fontBig);
     width: 90%;
@@ -50,7 +50,7 @@ export const Text2 = styled.p`
   width: 100%;
   height: 50vh;
   z-index: 1;
-  color: var(--black);
+  color: var(--white);
   span{
     font-size: var(--fontxxxl);
     width: 80%;

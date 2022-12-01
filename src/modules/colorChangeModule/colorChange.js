@@ -66,21 +66,15 @@ const ColorChange = () => {
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onStartParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onReverseCompleteParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
       })
       .to(Elem, {
         onStart: updateColor,
         onStartParams: ["#F9E5C9", "Gold", "249, 229, 201"],
         onReverseComplete: updateColor,
         onReverseCompleteParams: ["#F9E5C9", "Gold", "249, 229, 201"],
-      })
-      .to(Elem, {
-        onStart: updateColor,
-        onStartParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
-        onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#505F4E", "Alpine Green", "80, 95, 78"],
       })
       .to(Elem, {
         onStart: updateColor,

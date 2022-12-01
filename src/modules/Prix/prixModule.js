@@ -31,8 +31,8 @@ const PrixModule = () => {
   return (
     <Container>
     <PrixContainer ref={priceRef}>
-      <textIndicator> 360&deg; &#x27F2;  </textIndicator>
       <Iphone>
+      <Degree> 360&deg; &#x27F2;</Degree>
         <Canvas camera={{ fov: 14 }}>
           <ambientLight intensity={1} />
           <directionalLight intensity={0.4} />
@@ -44,9 +44,8 @@ const PrixModule = () => {
           <OrbitControls enableZoom={false} />
         </Canvas>
         <Couleurs>
-          <Couleur color="#9BB5CE" onClick={() => updateColor("#9BB5CE", "Sierra Blue", "155, 181, 206")} />
-          <Couleur color="#F9E5C9" onClick={() => updateColor("#F9E5C9", "Gold", "249, 229, 201")} />
           <Couleur color="#505F4E" onClick={() => updateColor("#505F4E", "Alpine Green", "80, 95, 78")} />
+          <Couleur color="#F9E5C9" onClick={() => updateColor("#F9E5C9", "Gold", "249, 229, 201")} />
           <Couleur color="#574f6f" onClick={() => updateColor("#574f6f", "Deep Purple", "87, 79, 111")} />
           <Couleur color="#A50011" onClick={() => updateColor("#A50011", "Red", "165, 0, 17")} />
           <Couleur color="#215E7C" onClick={() => updateColor("#215E7C", "Blue", "33, 94, 124")} />
@@ -54,8 +53,8 @@ const PrixModule = () => {
       </Iphone>
       <Details>
           <SousTitre>iPhone</SousTitre>
-          <Titre>14 Pro Max</Titre>
-          <SousTitre>From $1099*</SousTitre>
+          <Titre>13 Pro Max</Titre>
+          <SousTitre>For <P>1 Da</P> Only</SousTitre>
           <BtnContainer>
             <Btn>Buy</Btn>
             <BtnLink href="#">Learn More &#x2192;</BtnLink>
@@ -168,8 +167,11 @@ const BtnLink = styled.a`
   }
 `;
 
-const textIndicator = styled.div`
+const Degree = styled.div`
   font-size: var(--fontsm);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
 `;
+const P = styled.span`
+color:red;`
