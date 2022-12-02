@@ -38,16 +38,14 @@ const DisplayModule = () => {
           Super Retina XDR display
         </Title>
         <Texte>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem
-        </Texte>
+        The Super Retina and Super Retina XDR displays also feature HDR (extended dynamic range) technology, which provides a wide range of dark and bright areas in photos and videos. It displays deep blacks and pure whites while rendering the beautiful shades in between. Your photos look sharper and anything you watch in Dolby Vision, HDR10 or HLG has never looked better.        </Texte>
       </RightTextContainer>
       <LeftTextContainer ref ={container}>
         <Title>
           Big is Better
         </Title>
         <Texte>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem
-        </Texte>
+        Again, it won't surprise you to learn that the iPhone 14 Pro Max's screen is larger than the iPhone 14 Pro's. Apple often talks about 6.1 inches and 6.7 inches, but in reality it's a bit more subtle. Indeed, the iPhone 14 Pro offers a diagonal of 6.12 inches (without taking into account the rounded corners). In the same way, we reach only 6.69 inches with the iPhone 14 Pro Max.        </Texte>
       </LeftTextContainer>
       <TextContainer>
         <MovingText ref={textOne} >Tougher then ever!</MovingText>

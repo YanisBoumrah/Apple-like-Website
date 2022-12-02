@@ -9,11 +9,7 @@ export const Container = styled.div`
   overflow: hidden;
 
 `;
-// export const Button=styled.button`
-// position: absolute;
-// z-index:2;
-// bottom: 12px;
-// `
+
 export const PrixContainer = styled.div`
  width: 100vw;
   height: 100vh;
@@ -28,14 +24,16 @@ export const PrixContainer = styled.div`
 `;
 
 export const Iphone = styled.div`
-  width: 50%;
+  width: 20%;
   height: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   position: relative;
-  background-color: red;
+  cursor: grab;
+  @media screen and (max-width: 64em) {
+width : 100%;  }
 
 `;
 
@@ -44,12 +42,13 @@ export const Couleurs = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
-  background-color: blue;
+  position: absolute;
   z-index: 2;
+  right:100%;
 
   @media screen and (max-width: 64em) {
-    left: 10%;
+  right:83%;
+    width: auto;
   }
 `;
 
@@ -69,7 +68,10 @@ export const Details = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:yellow;
+
+  @media screen and (max-width: 64em) {
+    width: 100%;
+  }
 `;
 
 export const Titre = styled.h2`
@@ -121,4 +123,5 @@ export const Degree = styled.div`
   top: 2rem;
 `;
 export const P = styled.span`
-color:red;`
+color:red;
+`

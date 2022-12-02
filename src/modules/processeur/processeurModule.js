@@ -1,14 +1,17 @@
 import React from 'react'
 import a15 from '../../assets/Images/A15-Bionic.jpg'
-import {ProcesseurContainer, Titre, ImageContainer, Texte} from './styledProcesseur'
+import {ProcesseurContainer, Titre1,Titre2, ImageContainer, Texte} from './styledProcesseur'
 
 
 const ProcesseurModule = () => {
   return (
     <ProcesseurContainer>
-      <Titre>
+      <Titre1>
+        Powered by the A15 Bionic
+      </Titre1>
+      <Titre2>
       Fastest processor
-      </Titre>
+      </Titre2>
       <ImageContainer>
       <img src={a15} alt="A15 processeur" />
       </ImageContainer>

@@ -49,7 +49,6 @@ const ColorChange = () => {
         scrub: 1,
         pin: true,
         pinSpacing: true,
-        // markers: true,
       },
     });
 
@@ -60,7 +59,6 @@ const ColorChange = () => {
           start: "top top",
           end: `+=${Elem.offsetWidth + 1000}`,
           scrub: 1,
-          // markers: true,
 
         },
       })
@@ -93,6 +91,12 @@ const ColorChange = () => {
         onStartParams: ["#215E7C", "Blue", "33, 94, 124"],
         onReverseComplete: updateColor,
         onReverseCompleteParams: ["#215E7C", "Blue", "33, 94, 124"],
+      })
+      .to(Elem, {
+        onStart: updateColor,
+        onStartParams: ["#000", "Pitch Black", "0, 0, 0"],
+        onReverseComplete: updateColor,
+        onReverseCompleteParams: ["#000", "Pitch Black", "0, 0, 0"],
       });
 
     return () => {
@@ -113,7 +117,6 @@ const ColorChange = () => {
           </Suspense>
 
           <Environment preset="sunset" />
-          {/* <OrbitControls /> */}
         </Canvas>
       </Droite>
     </ColorContainer>

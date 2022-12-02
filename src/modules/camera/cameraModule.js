@@ -28,7 +28,6 @@ const CameraModule = () => {
               scrub: true,
               pin: true,
               pinSpacing: true,
-              // markers: true,
 
             },
           });
@@ -38,7 +37,6 @@ const CameraModule = () => {
                 start: "top top",
                 end: "bottom+=500 botom",
                 scrub: true,
-                // markers: true,
 
                 },
         }).to(videoElem1,{scale:0.3},"key1").to(videoElem2,{scale:0.6},"key1")

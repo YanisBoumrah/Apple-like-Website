@@ -16,7 +16,6 @@ const IphoneModel3D = () => {
           <Model />
         </Suspense>
         <AdaptiveDpr pixelated  />
-        {/* <OrbitControls /> */}
       </Canvas>
     </Contenaire>
   );

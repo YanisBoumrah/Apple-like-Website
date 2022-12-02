@@ -6,7 +6,7 @@ width: 100vw;
 height: 100vh;
 position: relative;
 z-index: 1;
-background-color: var(--white);
+background-color: var(--dark);
 overflow: hidden;
 `;
 
@@ -62,6 +62,7 @@ right: 0;
   }
 `
 export const Titre = styled.h1`
+color: var(--white);
 font-size: var(--fontBig);
 z-index: 5;
 text-transform: capitalize;
